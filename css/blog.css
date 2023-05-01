@@ -60,39 +60,63 @@
 
 .main .sidebar-left {
     width: 20%;
-    background-color: #05CAF8;
-    height: 800px;
 }
 
 .main .content {
     width: 60%;
-    background-color: #8cdcf0;
-    border-style: solid;
-    border-width: 8px;
-    border-color: #000;
 }
 
 .main .sidebar-right {
     width: 20%;
-    background-color: #05CAF8;
 }
 
 .main .sidebar-left .left-menu {
     list-style: none;
+    padding: 0;
 }
 
 .main .sidebar-left .left-menu .menu-item {
-    
-    text-align: left;
-    padding-bottom: 10px;
+    padding-left: 15px;
     padding-top: 10px;
-    cursor: pointer;
+    padding-bottom: 10px;
 }
 
-.main .sidebar-left .left-menu .menu-item.active {
-    background-color: #04AA6D !important;
+.menu-item a {
+    color: #fff;
+    text-decoration: none;
 }
 
-.main .sidebar-left .left-menu .menu-item:hover {
-    background-color: #e74be9;
+.content {
+    padding: 25px;
+}
+
+.row {
+    display: flex;
+}
+
+.post-header .row {
+    justify-content: space-between;
+}
+
+.post-header .post-meta {
+    list-style: none;
+}
+
+.post-header .post-meta li {
+    float: left;
+    margin-right: 5px;
+}
+
+.post-header .post-meta-item {
+    font-weight: bold;
+}
+
+.post-content {
+    margin-top: 20px;
+}
+
+.post-image-block {
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
 }
