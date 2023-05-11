@@ -8,72 +8,143 @@
     <link rel="stylesheet" type="text/css" href="bootstrap.min.css">
 </head>
 <body>
+    <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Навбар</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Переключатель навигации">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Главная</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Ссылка</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Поиск" aria-label="Поиск">
+              <button class="btn btn-outline-success" type="submit">Поиск</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+
     <div class="container-fluid">
         <div class="row">
 
-            <div class="col-2 p-1">
-                <p>
-                    <h1>Blog TSPU</h1>
-                </p>
-            </div>
-
-            <div class="col p-1">
+            <div class="col-2 p-1 d-none d-lg-flex">
                 <ul>
-                    <li>Item 1</li>
+                    <li>Item 1.2</li>
                     <li>Item 2</li>
                     <li>Item 3</li>
                     <li>Item 4</li>
                     <li>Item 5</li>
                 </ul>
+               
             </div>
 
-            <div class="col-2 p-1">
-                <p>
-                    <input type="text">
-                </p>
-            </div>
+            <div class="col-12 col-md-7">
 
-        </div>
-    </div>
-
-
-    <div class="container-fluid">
-        <div class="row">
-
-            <div class="col-2 p-1">
-                <ul>
-                    <li>Item 1</li>
-                    <li>Iyem 2</li>
-                    <li>Item 3</li>
-                    <li>Item 4</li>
-                    <li>Item 5</li>
-                </ul>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam dolorum dignissimos amet voluptate quia quod, quidem, vero doloremque, fugiat optio nihil id nobis perferendis iste veniam! Laudantium perspiciatis quia recusandae!
-                </p>
-            </div>
-
-            <div class="col">
-                <div class="container">
+                <div class="row mb-2">
                     <div class="row">
-                        <div class="col p-1">Name article</div>
-                        <div class="col-5 p-1">
-                            <p>
-                                Автор<br>
-                                Дата публикации<br>
-                                Количество просмотров:
-                            </p>
+                        <div class="col">
+                            <h2>Lorem ipsum, uptatum corporis unde iure cumque!</h2>
                         </div>
                     </div>
-
-                        <div class="col p-1">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, velit doloribus libero error pariatur, ab, officia nesciunt sequi corrupti magni cumque voluptas. Quidem a, qui hic fugit molestiae facere adipisci.
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Id perspiciatis, labore, enim harum odio eos aspernatur minima soluta esse quam ipsam assumenda ex odit quia ipsa beatae officiis porro! Nisi.
-                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt, pariatur. Facilis, autem. Pariatur non obcaecati consectetur ea natus eveniet quidem quis impedit fugiat voluptates, est facere necessitatibus eligendi nihil cupiditate!
-                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium explicabo facere perspiciatis esse quos ipsa odio tempore facilis id ex, ipsum ipsam corporis voluptates necessitatibus incidunt quaerat ut dignissimos hic.
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores rem ducimus labore fugiat eveniet similique alias cum blanditiis consequatur, officia sunt aliquid ratione, temporibus saepe earum. Velit tenetur harum neque?
-                        </div>
                 </div>
+
+                <div class="row">
+                    <div class="col-3">
+                        <img src="https://loremflickr.com/320/240" class="img-fluid" alt="post main image" class="post-image-main">
+                    </div>
+
+                    <div class="col-9">
+                        <div class="row">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate molestiae vitae quis iure quibusdam asperiores odit omnis nostrum veniam. Reprehenderit aperiam qui similique aspernatur illo mollitia beatae modi doloribus natus?
+                        </div>
+                        <div class="row border mt-4 p-2">
+                            <div class="col-7">
+                                <ul class="list-inline">
+                                    <li class="list-inline-item">Это элемент списка.</li>
+                                    <li class="list-inline-item">И еще один.</li>
+                                    <li class="list-inline-item">Но они</li>
+                                  </ul>
+                            </div>
+                            <div class="col-5">
+                                <button class="btn btn-dark">Подробнее</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="row">
+                        <div class="col">
+                            <h2>Lorem ipsum, uptatum corporis unde iure cumque!</h2>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row mb-2">
+                    <div class="col-3">
+                        <img src="https://loremflickr.com/320/240" class="img-fluid" alt="post main image" class="post-image-main">
+                    </div>
+
+                    <div class="col-9">
+                        <div class="row">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate molestiae vitae quis iure quibusdam asperiores odit omnis nostrum veniam. Reprehenderit aperiam qui similique aspernatur illo mollitia beatae modi doloribus natus?
+                        </div>
+                        <div class="row border mt-4 p-2">
+                            <div class="col-7">
+                                <ul class="list-inline">
+                                    <li class="list-inline-item">Это элемент списка.</li>
+                                    <li class="list-inline-item">И еще один.</li>
+                                    <li class="list-inline-item">Но они</li>
+                                  </ul>
+                            </div>
+                            <div class="col-5">
+                                <button class="btn btn-dark">Подробнее</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                 <div class="row">
+                    <div class="row">
+                        <div class="col">
+                            <h2>Lorem ipsum, uptatum corporis unde iure cumque!</h2>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-3">
+                        <img src="https://loremflickr.com/320/240" class="img-fluid" alt="post main image" class="post-image-main">
+                    </div>
+
+                    <div class="col-9">
+                        <div class="row">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate molestiae vitae quis iure quibusdam asperiores odit omnis nostrum veniam. Reprehenderit aperiam qui similique aspernatur illo mollitia beatae modi doloribus natus?
+                        </div>
+                        <div class="row border mt-4 p-2">
+                            <div class="col-7">
+                                <ul class="list-inline">
+                                    <li class="list-inline-item">Это элемент списка.</li>
+                                    <li class="list-inline-item">И еще один.</li>
+                                    <li class="list-inline-item">Но они</li>
+                                  </ul>
+                            </div>
+                            <div class="col-5">
+                                <button class="btn btn-dark">Подробнее</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                
             </div>
 
             <div class="col-2 p-1">
